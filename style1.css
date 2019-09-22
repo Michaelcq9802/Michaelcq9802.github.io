@@ -99,10 +99,10 @@
   width: 100%;
   color: white;
   background-color: grey;
+  margin: 15px 0;
   padding: 15px 32px;
   font-size: 18px;
   border-radius: 8px;
-  margin: 15px 0;
 }
 
 .button:hover {
@@ -163,10 +163,11 @@
   display: block;
   width: 120px;
   color: white;
-  height: 60px;
-  line-height: 60px;
   text-decoration: none;
   text-align: center;
+  height: 60px;
+  line-height: 60px;
+  
 }
 
 .bar li i {
