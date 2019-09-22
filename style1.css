@@ -28,6 +28,7 @@
 
 .co > div {
   margin: 18px;
+  border: 1px solid lightgrey;
   border-radius: 8px;
 }
 
