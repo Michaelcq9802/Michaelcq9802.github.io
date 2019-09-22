@@ -26,12 +26,6 @@
   margin-bottom: 50px;
 }
 
-.co > div {
-  margin: 18px;
-  border: 1px solid lightgrey;
-  border-radius: 8px;
-}
-
 .co i {
   font-size: .9em;
 }
@@ -48,6 +42,12 @@
   border: 1px solid lightgrey;
   border-radius: 2px;
   }
+
+.co > div {
+  margin: 18px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+}
 
 .info {
   display: flex;
