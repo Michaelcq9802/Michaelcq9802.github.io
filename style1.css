@@ -1,0 +1,296 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+
+.art {
+  display: flex;
+  margin: 100px auto;
+  height = 50px;
+  width: 60%;
+  border: 2px solid lightgrey;
+  padding: 10px;
+}
+
+
+.art1 p {
+  margin-top: 5px;
+}
+
+.co {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 680px;
+  margin-bottom: 50px;
+}
+
+.co > div {
+  margin: 18px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+}
+
+.co i {
+  font-size: .9em;
+}
+
+.co label {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.co input[type="text"] {
+  width: 100%;
+  margin-bottom: 22px;
+  padding: 12px;
+  border-radius: 5px;
+  }
+
+.info {
+  display: flex;
+  flex: 3 1 0px;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+}
+
+.total {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1 1 0px;
+  height: 40%;
+  background-color: whitesmoke;
+}
+
+.info > div {
+  margin: 0 22px;
+}
+
+
+.add{
+  flex-basis: 44%;
+  height: 85%;
+}
+
+.pay {
+  flex-basis: 44%;
+  height: 85%;
+}
+
+.sz {
+  display: flex;
+  justify-content: space-between;
+}
+
+.yc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub {
+  flex-basis: 100%;
+  height: 18%;
+  align-self: flex-start;
+}
+
+.button {
+  width: 100%;
+  color: white;
+  background-color: grey;
+  padding: 15px 32px;
+  font-size: 18px;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.icon {
+  margin-bottom: 21px;
+  padding: 5px;
+  font-size: 25px;
+}
+
+#visa {
+    color: navy;
+}
+
+#amex {
+    color: blue;
+}
+
+#master {
+    color: red;
+}
+
+#discover {
+    color: orange;
+}
+
+.total > div {
+  display: flex;
+  justify-content: space-between;
+  background-color: ;
+  line-height: 36px;
+  margin-top: 5px;
+  margin-left: 18px;
+}
+
+.total a {
+  color: #6CA9EE;
+}
+
+.price {
+  color: grey;
+  margin-right: 21px;
+}
+
+
+.bar {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  list-style-type: none;
+  background-color: #555555;
+}
+
+.bar li a {
+  display: block;
+  width: 120px;
+  color: white;
+  height: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.bar li i {
+  margin-right: 5px;
+}
+
+.timeline {
+  display: flex;
+  width:90%;
+  margin: auto;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.box {
+  display: flex;
+  position: relative;
+  width: 49%;
+  height: 300px;
+  background-color: #484E5C;
+}
+
+.words {
+  background-color: white;
+  border: medium solid white;
+  border-radius: 8px;
+  width: 80%;
+  height: 70%;
+  position: relative;
+  top: 30px;
+}
+
+.words1 {
+    left: 6%;
+  background-color: white;
+  border: medium solid white;
+  border-radius: 8px;
+  width: 80%;
+  height: 50%;
+  position: relative;
+  top: 30px;
+}
+
+.words2 {
+  left:14%;
+  background-color: white;
+  border: medium solid white;
+  border-radius: 8px;
+  width: 80%;
+  height: 55%;
+  position: relative;
+  top: 30px;
+}
+
+.left .words {
+  left: 14%;
+}
+
+.right .words {
+  left: 6%;
+}
+
+.left i{
+  font-size: 32px;
+  position: absolute;
+  top: 44px;
+  z-index: 1;
+  color: orange;
+  border-radius: 50%;
+  background-color: white;
+}
+.right i {
+  font-size: 32px;
+  position: absolute;
+  top: 44px;
+  z-index: 1;
+  color: orange;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.left i {
+  right: -3.4%;
+}
+
+.right i {
+  left: -3.4%;
+}
+
+.words > h1, p, .words1 > h1, p, .words2 > h1, p {
+  padding: 0 25px 0 25px;
+}
+
+.words h1, .words1 h1, .words2 h1 {
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.words p,.words1 p, .words2 p {
+  font-size: 16px;
+}
+
+.left::after {
+  content: " ";
+  width: 0; 
+  height: 0;
+  position: absolute;
+  top: 44px;
+  right: 4%;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid white;
+  z-index: 1;
+}
+
+.right::before {
+  content: " ";
+  width: 0; 
+  height: 0;
+  position: absolute;
+  top: 44px;
+  left: 4%;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid white;
+  z-index: 1;
+}
